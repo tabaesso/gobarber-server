@@ -3,7 +3,7 @@ node_modules/
 .vscode/
 build/
 temp/
-coverage
+coverage/
 .env
 ormconfig.json
 
