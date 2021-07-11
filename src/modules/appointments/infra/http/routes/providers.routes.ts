@@ -24,6 +24,7 @@ providersRouter.get(
   }),
   providerMonthAvailabilityController.index,
 );
+
 providersRouter.get(
   '/:provider_id/day-availability',
   celebrate({
