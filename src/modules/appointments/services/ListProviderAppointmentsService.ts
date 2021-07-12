@@ -43,8 +43,6 @@ class ListProviderAppointmentsService {
         },
       );
 
-      console.log('A query foi feita no banco');
-
       await this.cacheProvider.save(cacheKey, appointments);
     }
 
