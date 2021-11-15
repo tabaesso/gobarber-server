@@ -25,7 +25,7 @@ export default class EtherealMailProvider implements IMailProvider {
       });
 
       this.client = transporter;
-    });
+    }).catch(err => new Error(err.message));
   }
 
   public async sendMail({
